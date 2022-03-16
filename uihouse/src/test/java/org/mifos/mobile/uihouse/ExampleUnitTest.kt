@@ -1,4 +1,4 @@
-package org.mifos.mobile.ui_library
+package org.mifos.mobile.uihouse
 
 import org.junit.Test
 
