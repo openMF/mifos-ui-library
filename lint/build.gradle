@@ -1,0 +1,21 @@
+plugins {
+    id 'java-library'
+    id 'kotlin'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+dependencies{
+
+    compileOnly libraries.android_lint_tool
+}
+
+
+jar {
+    manifest {
+        attributes("Lint-Registry-v2": "org.mifos.mobile.ui.lint.LintRegistry")
+    }
+}

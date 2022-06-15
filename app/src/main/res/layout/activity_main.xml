@@ -1,18 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<com.google.android.material.appbar.AppBarLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="@string/app_name"
+        app:menu="@menu/app_bar_actions"
+        app:titleCentered="true"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".MainActivity"
+            android:orientation="vertical"
+            android:gravity="center">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Heading: Account Summary"
+                style="@style/Mifos.DesignSystem.TextStyle.Heading"/>
+            <!--    small title not much focus taking-->
+            <TextView
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Secondary Heading: Account Balance"
+                style="@style/Mifos.DesignSystem.TextStyle.SubHeading"/>
+
+            <!--big bold text for things having focus-->
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@style/Mifos.DesignSystem.TextStyle.MainFocusText"
+                android:text="$ 244566334.555"/>
+
+            <!--basic style-->
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@style/Mifos.DesignSystem.TextStyle.Body"
+                android:text="Body text: Above Loan and Savings account balance are calculated on behalf of your all savings and loan accounts."/>
+
+
+            <!--less focus text like all rights reserved @copyright etc-->
+            <TextView
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                style="@style/Mifos.DesignSystem.TextStyle.SecondaryText"
+                android:text="All rights reserved."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="click here on link"
+                style="@style/Mifos.DesignSystem.TextStyle.Link"
+                android:layout_marginVertical="16dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="16dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="high focus color"
+                    style="@style/Mifos.DesignSystem.TextStyle.Body"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mid focus color"
+                    android:alpha="@dimen/alpha_low"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="low focus color"
+                    android:alpha="@dimen/alpha_least"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
