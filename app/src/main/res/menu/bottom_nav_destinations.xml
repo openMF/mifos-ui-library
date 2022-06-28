@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mainScreenFragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/fragment_1"/>
+
+    <item
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+        android:title="@string/fragment_2"/>
+
+    <item
+        android:id="@+id/thirdFragment"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="@string/fragment_3"/>
+</menu>

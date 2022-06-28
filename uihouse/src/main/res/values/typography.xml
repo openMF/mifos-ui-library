@@ -15,7 +15,7 @@
         <item name="android:textStyle">bold</item>
     </style>
     <style name="Mifos.DesignSystem.TextStyle.Body" parent="TextAppearance.Material3.BodyMedium"/>
-    <style name="Mifos.DesignSystem.TextStyle.SecondaryText" parent="TextAppearance.Material3.BodyMedium">
+    <style name="Mifos.DesignSystem.TextStyle.SecondaryText" parent="TextAppearance.Material3.LabelSmall">
         <item name="android:alpha">0.7</item>
         <item name="android:textStyle">normal</item>
     </style>

@@ -4,8 +4,20 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_baseline_dark_mode_24.xml" value="0.187" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.278" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/drawer_contents.xml" value="0.26992753623188404" />
+        <entry key="app/src/main/res/layout/drawer_header.xml" value="0.26992753623188404" />
+        <entry key="app/src/main/res/layout/fragment_main_screen.xml" value="0.26992753623188404" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_third.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/sample_card.xml" value="0.26992753623188404" />
         <entry key="app/src/main/res/menu/app_bar_actions.xml" value="0.17760416666666667" />
+        <entry key="app/src/main/res/menu/bottom_nav_destinations.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/dropdown_menu_sample.xml" value="0.35104166666666664" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.278" />
+        <entry key="uihouse/src/main/res/drawable/bottom_sheet_background.xml" value="0.278" />
+        <entry key="uihouse/src/main/res/drawable/bottom_sheet_grip.xml" value="0.278" />
       </map>
     </option>
   </component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Mifos.DesignSystem.Spacing.CardInnerPadding">8dp</dimen>
+
+    <style name="Mifos.DesignSystem.Components.FilledCard.Clickable" parent="Widget.Material3.CardView.Filled" >
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="Mifos.DesignSystem.Components.OutlinedCard.Clickable" parent="Widget.Material3.CardView.Outlined" >
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+</resources>

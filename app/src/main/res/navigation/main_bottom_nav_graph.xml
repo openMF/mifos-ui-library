@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_bottom_nav_graph"
+    app:startDestination="@id/mainScreenFragment">
+
+    <fragment
+        android:id="@+id/mainScreenFragment"
+        android:name="org.mifos.mobile.ui.MainScreenFragment"
+        android:label="MainScreenFragment"
+        tools:layout="@layout/fragment_main_screen"/>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="org.mifos.mobile.ui.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" />
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="org.mifos.mobile.ui.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" />
+</navigation>

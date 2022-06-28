@@ -13,7 +13,8 @@ ext.versions = [
         app_compat: "1.4.2",
         material: "1.6.1",
         constraint_layout: "2.1.4",
-        android_lint_tool: "30.2.1"
+        android_lint_tool: "30.2.1",
+        navigation_component: "2.4.2"
 ]
 
 ext.libraries = [
@@ -31,5 +32,9 @@ ext.libraries = [
         android_lint_tool: [
                 "com.android.tools.lint:lint-api:$versions.android_lint_tool",
                 "com.android.tools.lint:lint-checks:$versions.android_lint_tool"
+        ],
+        navigation_component: [
+                "androidx.navigation:navigation-fragment-ktx:$versions.navigation_component",
+                "androidx.navigation:navigation-ui-ktx:$versions.navigation_component"
         ]
 ]

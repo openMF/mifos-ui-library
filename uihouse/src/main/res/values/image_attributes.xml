@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Mifos.DesignSystem.Size.IconSize">24dp</dimen>
+
+    <style name="Mifos.DesignSystem.Shape.roundedImage" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
