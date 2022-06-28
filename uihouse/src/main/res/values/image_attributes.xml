@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="Mifos.DesignSystem.Size.IconSize">24dp</dimen>
+    <dimen name="Mifos.DesignSystem.Size.LogoImageSize">100dp</dimen>
+    <dimen name="Mifos.DesignSystem.Size.CircularUserImageSize">100dp</dimen>
+    <dimen name="Mifos.DesignSystem.Size.UserImageEditTopStartMargins">66dp</dimen>
+    <dimen name="Mifos.DesignSystem.Size.ListItemsIconSize">39dp</dimen>
+
+    <dimen name="Mifos.DesignSystem.Size.LogoImageVerticalMargin">56dp</dimen>
 
     <style name="Mifos.DesignSystem.Shape.roundedImage" parent="ShapeAppearance.Material3.SmallComponent">
         <item name="cornerFamily">rounded</item>

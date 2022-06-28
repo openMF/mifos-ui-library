@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="Mifos.DesignSystem.Spacing.CardInnerPadding">8dp</dimen>
+    <dimen name="Mifos.DesignSystem.Spacing.CardInnerPaddingLarger">20dp</dimen>
 
     <style name="Mifos.DesignSystem.Components.FilledCard.Clickable" parent="Widget.Material3.CardView.Filled" >
         <item name="android:foreground">?attr/selectableItemBackground</item>
@@ -12,4 +13,15 @@
         <item name="android:clickable">true</item>
         <item name="android:focusable">true</item>
     </style>
+
+    <style name="Mifos.DesignSystem.TextStyle.CardTitle" parent="TextAppearance.Material3.BodyLarge"/>
+    <style name="Mifos.DesignSystem.TextStyle.CardSubtitle" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:alpha">@dimen/alpha_low_emphasis</item>
+    </style>
+    <dimen name="Mifos.DesignSystem.Spacing.BetweenCardTitleSubtitle">4dp</dimen>
+    <dimen name="Mifos.DesignSystem.Spacing.BetweenCardImageTitle">16dp</dimen>
+
+    <dimen name="Mifos.DesignSystem.Spacing.BetweenListCardItems">16dp</dimen>
+    <dimen name="Mifos.DesignSystem.Spacing.BetweenListCardItemsHalf">8dp</dimen>
+
 </resources>

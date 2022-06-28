@@ -2,13 +2,13 @@ package org.mifos.mobile.ui
 
 import android.app.Activity
 import android.content.Context
+import android.content.res.Resources
 import android.util.TypedValue
 import android.view.View
 import androidx.annotation.AttrRes
 import androidx.annotation.ColorInt
 import androidx.core.graphics.ColorUtils
 import androidx.core.view.ViewCompat
-import androidx.core.view.WindowCompat
 
 
 fun View.setStatusBarColor(@ColorInt color: Int){

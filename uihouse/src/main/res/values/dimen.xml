@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="Mifos.DesignSystem.Spacing.screenHorizontalMargin">16dp</dimen>
+    <dimen name="Mifos.DesignSystem.Spacing.screenVerticalMargin">16dp</dimen>
+
+
+    <dimen name="Mifos.DesignSystem.Spacing.marginBetweenItemsSmall">8dp</dimen>
+    <dimen name="Mifos.DesignSystem.Spacing.marginBetweenItemsMedium">16dp</dimen>
+    <dimen name="Mifos.DesignSystem.Spacing.marginBetweenItemsLarge">20dp</dimen>
+    <dimen name="Mifos.DesignSystem.Spacing.marginBetweenSections">48dp</dimen>
+    <dimen name="Mifos.DesignSystem.Spacing.marginBetweenSectionsHalf">24dp</dimen>
+    <dimen name="Mifos.DesignSystem.Spacing.marginWords">4dp</dimen>
+
+    <dimen name="Mifos.DesignSystem.Spacing.listHeaderSpacing">8dp</dimen>
+    <dimen name="Mifos.DesignSystem.Spacing.FabMargin">16dp</dimen>
+    <dimen name="Mifos.DesignSystem.Spacing.VerticalSpaceForFab">100dp</dimen>
+
+
+    <dimen name="Mifos.DesignSystem.Size.SpacerThickness">1dp</dimen>
+    <dimen name="Mifos.DesignSystem.Size.SmallerTextFieldWidth">120dp</dimen>
+    <dimen name="Mifos.DesignSystem.Size.SmallTextFieldWidth">160dp</dimen>
+</resources>

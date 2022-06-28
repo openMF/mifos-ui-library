@@ -1,9 +1,32 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
 }
 
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = 'org.mifos.mobile'
+                artifactId = 'uihouse'
+                version = '1.0.0-alpha'
+            }
+        }
+    }
+}
+
+
 android {
+    namespace = "org.mifos.mobile.ui"
+    defaultConfig {
+        aarMetadata {
+            minCompileSdk = 22
+        }
+    }
+
     compileSdk 32
 
     defaultConfig {
@@ -34,6 +57,9 @@ dependencies {
     implementation libraries.androidx_core
     implementation libraries.app_compat
     implementation libraries.material
+    implementation libraries.country_code_picker
+    implementation libraries.lib_phone_number
+
     testImplementation libraries.junit
     androidTestImplementation libraries.android_tests
 

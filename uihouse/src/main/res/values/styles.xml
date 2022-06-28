@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Mifos.DesignSystem.Components.CountryCodePicker" parent="android:Widget">
+        <item name="ccp_contentColor">?attr/colorOnBackground</item>
+        <item name="ccpDialog_searchEditTextTint">?attr/colorOnBackground</item>
+    </style>
+
+</resources>

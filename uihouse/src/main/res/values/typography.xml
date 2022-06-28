@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Mifos.DesignSystem.TextStyle.Link" parent="TextAppearance.Material3.BodyMedium">
-        <item name="android:textColor">@color/link_color</item>
+        <item name="android:textColor">@color/link_color_state_list</item>
         <item name="android:clickable">true</item>
         <item name="android:focusable">true</item>
         <item name="android:paddingTop">2dp</item>

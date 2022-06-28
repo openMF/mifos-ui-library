@@ -24,7 +24,7 @@
         <item name="behavior_expandedOffset">?attr/actionBarSize</item>
     </style>
 
-    <style name="Mifos.DesignSystem.TextStyle.BottomSheetTitle" parent="TextAppearance.Material3.TitleLarge"/>
+    <style name="Mifos.DesignSystem.TextStyle.BottomSheetTitle" parent="TextAppearance.Material3.TitleSmall"/>
 
     <item name="Mifos.DesignSystem.Drawable.BottomSheetGrip" type="drawable">@drawable/bottom_sheet_grip</item>
 
