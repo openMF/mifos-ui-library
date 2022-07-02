@@ -40,42 +40,42 @@
 
             <Button
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginItemsInSection"
+                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginBetweenItemsMedium"
                 android:layout_width="match_parent"
                 android:text="Button 0" />
 
             <Button
                 style="@style/Widget.Material3.Button.ElevatedButton"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginItemsInSection"
+                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginBetweenItemsMedium"
                 android:layout_width="match_parent"
                 android:text="Button 1" />
 
             <Button
                 style="@style/Widget.Material3.Button.OutlinedButton"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginItemsInSection"
+                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginBetweenItemsMedium"
                 android:layout_width="match_parent"
                 android:text="Button 2" />
 
             <Button
                 style="@style/Widget.Material3.Button.TonalButton"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginItemsInSection"
+                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginBetweenItemsMedium"
                 android:layout_width="match_parent"
                 android:text="Button 2.1" />
 
             <Button
                 style="@style/Widget.Material3.Button.TextButton"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginItemsInSection"
+                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginBetweenItemsMedium"
                 android:layout_width="match_parent"
                 android:text="Button 3" />
 
             <Button
                 style="@style/Widget.Material3.Button.TonalButton"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginItemsInSection"
+                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginBetweenItemsMedium"
                 android:layout_width="match_parent"
                 android:text="Button 4"
                 app:icon="@drawable/ic_baseline_account_balance_wallet_24"
@@ -84,7 +84,7 @@
 
             <com.google.android.material.button.MaterialButtonToggleGroup
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginItemsInSection"
+                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginBetweenItemsMedium"
                 android:layout_width="match_parent"
                 app:selectionRequired="true">
 
@@ -118,7 +118,7 @@
 
             <com.google.android.material.button.MaterialButtonToggleGroup
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginItemsInSection"
+                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginBetweenItemsMedium"
                 android:layout_width="wrap_content"
                 app:selectionRequired="true">
 

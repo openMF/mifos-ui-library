@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <!--Horizontal margin near the screen edges-->
     <dimen name="Mifos.DesignSystem.Spacing.screenHorizontalMargin">16dp</dimen>
+    <!--Vertical margin near the screen edges/ top bar/ bottom nav bar.
+        If the element is a list or scrollable view, use this value for `paddingVertical` so the space is used when scrolling
+    -->
     <dimen name="Mifos.DesignSystem.Spacing.screenVerticalMargin">16dp</dimen>
 
-
+    <!--Spacing between usual items inside a section of screen
+        Usage: use largeMargin between title and content of section, mediumMargin between input fields, smallMargin between body elements of section
+    -->
     <dimen name="Mifos.DesignSystem.Spacing.marginBetweenItemsSmall">8dp</dimen>
     <dimen name="Mifos.DesignSystem.Spacing.marginBetweenItemsMedium">16dp</dimen>
     <dimen name="Mifos.DesignSystem.Spacing.marginBetweenItemsLarge">20dp</dimen>
+
+    <!--Space between sections of screen, e.g. login and signup sections of login screen-->
     <dimen name="Mifos.DesignSystem.Spacing.marginBetweenSections">48dp</dimen>
+    <!--Half of the space between sections of screen, can be used as vertical margins for a spacer between the sections-->
     <dimen name="Mifos.DesignSystem.Spacing.marginBetweenSectionsHalf">24dp</dimen>
+
     <dimen name="Mifos.DesignSystem.Spacing.marginWords">4dp</dimen>
 
+    <!--Space between list content and list header-->
     <dimen name="Mifos.DesignSystem.Spacing.listHeaderSpacing">8dp</dimen>
+    <!--Space between parent bottom/right edge and fab-->
     <dimen name="Mifos.DesignSystem.Spacing.FabMargin">16dp</dimen>
+    <!--Bottom padding for a scroll view, so that when the scroll view scrolls to end, the bottom content are not covered by the fab-->
     <dimen name="Mifos.DesignSystem.Spacing.VerticalSpaceForFab">100dp</dimen>
 
-
-    <dimen name="Mifos.DesignSystem.Size.SpacerThickness">1dp</dimen>
+    <!--Alternate widths for text fields if it doesn't fill the width of parent-->
     <dimen name="Mifos.DesignSystem.Size.SmallerTextFieldWidth">120dp</dimen>
     <dimen name="Mifos.DesignSystem.Size.SmallTextFieldWidth">160dp</dimen>
 </resources>

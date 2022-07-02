@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="bottomSheetDialogBorderRadius">10dp</dimen>
-    <dimen name="bottomSheetPeekHeight">90dp</dimen>
+    <dimen name="Mifos.DesignSystem.Size.BottomSheetPeakHeight">175dp</dimen>
 
     <style name="bottomSheetShapeStyle" parent="ShapeAppearance.Material3.LargeComponent">
         <item name="cornerFamily">rounded</item>
@@ -12,7 +12,7 @@
 
 
     <style name="Mifos.DesignSystem.Components.BottomSheet.NoExpandedOffset" parent="Widget.Material3.BottomSheet">
-        <item name="behavior_peekHeight">@dimen/bottomSheetPeekHeight</item>
+        <item name="behavior_peekHeight">@dimen/Mifos.DesignSystem.Size.BottomSheetPeakHeight</item>
         <item name="shapeAppearance">@style/bottomSheetShapeStyle</item>
         <item name="layout_behavior">@string/bottom_sheet_behavior</item>
         <item name="behavior_hideable">false</item>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/user_image_drawable"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        app:shapeAppearance="@style/Mifos.DesignSystem.Shape.roundedImage"
+        app:strokeColor="?attr/colorPrimaryContainer"
+        app:strokeWidth="3dp"
+        android:padding="3dp"
+        tools:src="@tools:sample/avatars" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/image_change_button"
+        android:layout_gravity="bottom|end"
+        android:layout_height="30dp"
+        app:contentPadding="3dp"
+        android:layout_width="30dp"
+        android:backgroundTint="?attr/colorPrimaryContainer"
+        app:shapeAppearance="@style/Mifos.DesignSystem.Shape.roundedImage"
+        app:strokeWidth="0dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_change_button_image"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/ic_baseline_photo_camera_24" />
+    </com.google.android.material.card.MaterialCardView>
+</merge>

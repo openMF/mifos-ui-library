@@ -1,14 +1,11 @@
 package org.mifos.mobile.ui
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.fragment.findNavController
-import androidx.navigation.ui.NavigationUI.setupActionBarWithNavController
-import androidx.navigation.ui.setupWithNavController
+import android.widget.Toast
+import androidx.fragment.app.Fragment
 import org.mifos.mobile.ui.databinding.FragmentThirdBinding
 
 class ThirdFragment : Fragment() {
@@ -18,7 +15,9 @@ class ThirdFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val binding = FragmentThirdBinding.inflate(inflater, container, false)
-
+        binding.profileImage.setOnImageChangeButtonListener{
+            Toast.makeText(requireContext(), "Image change button clicked", Toast.LENGTH_SHORT).show()
+        }
         return binding.root
     }
 

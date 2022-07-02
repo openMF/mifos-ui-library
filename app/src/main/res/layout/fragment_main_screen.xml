@@ -27,7 +27,7 @@
         android:layout_height="match_parent"
         android:layout_marginHorizontal="@dimen/Mifos.DesignSystem.Spacing.screenHorizontalMargin"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:paddingBottom="@dimen/bottomSheetPeekHeight"
+        android:paddingBottom="@dimen/Mifos.DesignSystem.Size.BottomSheetPeakHeight"
         android:clipToPadding="false">
 
         <LinearLayout
@@ -41,7 +41,7 @@
                 style="@style/Mifos.DesignSystem.TextStyle.Heading"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginItemsInSection"
+                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginBetweenItemsMedium"
                 android:text="Heading: Account Summary" />
 
             <!--    small title not much focus taking-->
@@ -50,7 +50,7 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginItemsInSection"
+                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginBetweenItemsMedium"
                 android:text="Secondary Heading: Account Balance" />
 
             <!--big bold text for things having focus-->
@@ -58,7 +58,7 @@
                 style="@style/Mifos.DesignSystem.TextStyle.MainFocusText"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginItemsInSection"
+                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginBetweenItemsMedium"
                 android:text="$ 244566334.555" />
 
             <!--basic style-->
@@ -66,7 +66,7 @@
                 style="@style/Mifos.DesignSystem.TextStyle.Body"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginItemsInSection"
+                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginBetweenItemsMedium"
                 android:text="Body text: Above Loan and Savings account balance are calculated on behalf of your all savings and loan accounts." />
 
 
@@ -76,14 +76,14 @@
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginItemsInSection"
+                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginBetweenItemsMedium"
                 android:text="All rights reserved." />
 
             <TextView
                 style="@style/Mifos.DesignSystem.TextStyle.Link"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginItemsInSection"
+                android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginBetweenItemsMedium"
                 android:text="click here on link" />
 
             <LinearLayout
@@ -148,7 +148,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bottom sheet title"
-            android:layout_marginTop="@dimen/Mifos.DesignSystem.Spacing.marginItemsInSection"
+            android:layout_marginTop="@dimen/Mifos.DesignSystem.Spacing.marginBetweenItemsMedium"
             style="@style/Mifos.DesignSystem.TextStyle.BottomSheetTitle"/>
 
         <androidx.recyclerview.widget.RecyclerView

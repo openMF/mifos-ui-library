@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_baseline_dark_mode_24.xml" value="0.187" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.278" />
+        <entry key="app/src/main/res/drawable/sample_user_image.xml" value="0.2835" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/drawer_contents.xml" value="0.26992753623188404" />
         <entry key="app/src/main/res/layout/drawer_header.xml" value="0.26992753623188404" />
@@ -18,6 +19,8 @@
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.278" />
         <entry key="uihouse/src/main/res/drawable/bottom_sheet_background.xml" value="0.278" />
         <entry key="uihouse/src/main/res/drawable/bottom_sheet_grip.xml" value="0.278" />
+        <entry key="uihouse/src/main/res/drawable/ic_baseline_photo_camera_24.xml" value="0.2465" />
+        <entry key="uihouse/src/main/res/layout/profile_image.xml" value="1.25" />
       </map>
     </option>
   </component>
