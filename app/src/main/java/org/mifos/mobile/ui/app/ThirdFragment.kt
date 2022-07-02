@@ -1,4 +1,4 @@
-package org.mifos.mobile.ui
+package org.mifos.mobile.ui.app
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import org.mifos.mobile.ui.databinding.FragmentThirdBinding
+import org.mifos.mobile.ui.app.databinding.FragmentThirdBinding
 
 class ThirdFragment : Fragment() {
 

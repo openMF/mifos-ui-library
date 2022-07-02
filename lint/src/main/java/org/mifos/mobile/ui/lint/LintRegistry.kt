@@ -7,7 +7,7 @@ import com.android.tools.lint.detector.api.Issue
 
 
 @Suppress("UnstableApiUsage")
-class LintRegistry : LintRegistry() {
+class LintRegistry : IssueRegistry() {
 
     override val api: Int = CURRENT_API
 

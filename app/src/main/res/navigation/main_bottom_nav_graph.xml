@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/mainScreenFragment"
-        android:name="org.mifos.mobile.ui.MainScreenFragment"
+        android:name="org.mifos.mobile.ui.app.MainScreenFragment"
         android:label="MainScreenFragment"
         tools:layout="@layout/fragment_main_screen"/>
     <fragment
         android:id="@+id/secondFragment"
-        android:name="org.mifos.mobile.ui.SecondFragment"
+        android:name="org.mifos.mobile.ui.app.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" />
     <fragment
         android:id="@+id/thirdFragment"
-        android:name="org.mifos.mobile.ui.ThirdFragment"
+        android:name="org.mifos.mobile.ui.app.ThirdFragment"
         android:label="fragment_third"
         tools:layout="@layout/fragment_third" />
 </navigation>

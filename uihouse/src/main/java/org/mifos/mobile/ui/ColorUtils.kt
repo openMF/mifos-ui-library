@@ -2,19 +2,16 @@ package org.mifos.mobile.ui
 
 import android.app.Activity
 import android.content.Context
-import android.content.res.Resources
 import android.util.TypedValue
-import android.view.View
 import androidx.annotation.AttrRes
 import androidx.annotation.ColorInt
 import androidx.core.graphics.ColorUtils
-import androidx.core.view.ViewCompat
+import androidx.core.view.WindowCompat
 
-
-fun View.setStatusBarColor(@ColorInt color: Int){
-    if (!isInEditMode) {
-        (context as Activity).window.statusBarColor = color
-        ViewCompat.getWindowInsetsController(this)?.isAppearanceLightStatusBars = ColorUtils.calculateLuminance(color) > 0.5
+fun Activity.setStatusBarColor(@ColorInt color: Int){
+    if(!window.decorView.isInEditMode){
+        window.statusBarColor = color
+        WindowCompat.getInsetsController(window, window.decorView).isAppearanceLightStatusBars = ColorUtils.calculateLuminance(color) > 0.5
     }
 }
 

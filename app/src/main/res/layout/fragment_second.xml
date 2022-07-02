@@ -34,7 +34,7 @@
             android:layout_marginVertical="@dimen/Mifos.DesignSystem.Spacing.screenVerticalMargin"
             android:layout_width="match_parent"
             android:orientation="vertical"
-            tools:context=".SecondFragment"
+            tools:context=".app.SecondFragment"
             android:paddingBottom="100dp"
             android:clipToPadding="false">
 

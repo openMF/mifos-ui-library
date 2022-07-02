@@ -1,4 +1,4 @@
-package org.mifos.mobile.ui.util
+package org.mifos.mobile.ui.app.util
 
 import android.annotation.SuppressLint
 import android.view.ViewGroup

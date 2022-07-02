@@ -1,17 +1,16 @@
-package org.mifos.mobile.ui
+package org.mifos.mobile.ui.app
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.fragment.findNavController
-import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
-import org.mifos.mobile.ui.databinding.FragmentMainScreenBinding
-import org.mifos.mobile.ui.databinding.SampleCardBinding
-import org.mifos.mobile.ui.util.GenericRecyclerViewAdapter
+import org.mifos.mobile.ui.app.R
+import org.mifos.mobile.ui.app.databinding.FragmentMainScreenBinding
+import org.mifos.mobile.ui.app.databinding.SampleCardBinding
+import org.mifos.mobile.ui.app.util.GenericRecyclerViewAdapter
 
 class MainScreenFragment : Fragment() {
 

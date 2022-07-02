@@ -1,4 +1,4 @@
-package org.mifos.mobile.ui
+package org.mifos.mobile.ui.app
 
 import android.app.UiModeManager
 import android.content.Context
@@ -9,7 +9,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
-import org.mifos.mobile.ui.databinding.ActivityMainBinding
+import org.mifos.mobile.ui.app.R
+import org.mifos.mobile.ui.app.databinding.ActivityMainBinding
+import org.mifos.mobile.ui.getThemeAttributeColor
+import org.mifos.mobile.ui.setStatusBarColor
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.bottomNav.setupWithNavController(findNavController(R.id.navHostFragment))
 
-        binding.root.setStatusBarColor(getThemeAttributeColor(com.google.android.material.R.attr.colorSurface))
+        setStatusBarColor(getThemeAttributeColor(com.google.android.material.R.attr.colorSurface))
     }
 
     override fun onSupportNavigateUp() =
