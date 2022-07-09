@@ -3,6 +3,7 @@ package org.mifos.mobile.ui
 import android.content.Context
 import android.content.res.ColorStateList
 import android.content.res.TypedArray
+import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.FrameLayout
@@ -98,6 +99,10 @@ class ProfileImageView @JvmOverloads  constructor(
 
     fun setUserImage(@DrawableRes resId: Int){
         userImage.setImageResource(resId)
+    }
+
+    fun setUserImage(drawable: Drawable?){
+        userImage.setImageDrawable(drawable)
     }
 
     fun setOnImageChangeButtonListener(listener: () -> Unit){
