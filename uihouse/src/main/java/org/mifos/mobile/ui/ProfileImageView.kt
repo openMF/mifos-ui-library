@@ -14,6 +14,7 @@ import androidx.core.view.setPadding
 import com.google.android.material.card.MaterialCardView
 import com.google.android.material.imageview.ShapeableImageView
 import com.google.android.material.shape.ShapeAppearanceModel
+import org.mifos.mobile.uihouse.R
 
 class ProfileImageView @JvmOverloads  constructor(
     context: Context,

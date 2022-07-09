@@ -8,7 +8,11 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+
+
 ext.versions = [
+        ui_lib: "1.0.0-alpha1",
         androidx_core: "1.8.0",
         app_compat: "1.4.2",
         material: "1.6.1",

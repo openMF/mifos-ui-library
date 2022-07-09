@@ -1,4 +1,4 @@
-package io.github.rahul_gill.lint_check
+package org.mifos.mobile.ui.lint
 
 import com.android.tools.lint.client.api.IssueRegistry
 import com.android.tools.lint.client.api.Vendor
