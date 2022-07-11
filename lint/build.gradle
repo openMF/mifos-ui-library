@@ -13,19 +13,17 @@ afterEvaluate {
         }
     }
 }
-
 dependencies{
-
     compileOnly libraries.android_lint_tool
 }
 
-
-jar {
-    manifest {
-        attributes("Lint-Registry-v2": "org.mifos.mobile.ui.lint.LintRegistry")
-    }
-}
 java {
     sourceCompatibility = JavaVersion.VERSION_11
     targetCompatibility = JavaVersion.VERSION_11
+}
+
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = "11"
+    }
 }

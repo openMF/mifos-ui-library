@@ -36,11 +36,6 @@
 
     <style name="Mifos.DesignSystem.Components.IconButton" parent="Widget.Material3.Button.IconButton"/>
 
-    <style name="tmpShape" parent="">
-        <item name="cornerFamily">cut</item>
-        <item name="cornerSizeTopRight">8dp</item>
-        <item name="cornerSizeTopLeft">8dp</item>
-    </style>
 
     <style name="Mifos.DesignSystem.Components.ProfileImage" parent="android:Widget">
         <item name="strokeColor" >?attr/colorPrimaryContainer</item>

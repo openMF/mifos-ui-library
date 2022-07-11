@@ -17,7 +17,7 @@ ext.versions = [
         app_compat: "1.4.2",
         material: "1.6.1",
         constraint_layout: "2.1.4",
-        android_lint_tool: "30.2.1",
+        android_lint_tool: "30.2.0",
         navigation_component: "2.4.2",
         country_code_picker: "2.4.7",
         lib_phone_number: "8.12.50"
