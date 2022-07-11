@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottomSheetDialogBorderRadius">10dp</dimen>
+    <dimen name="Mifos.DesignSystem.Size.BottomSheetPeakHeight">175dp</dimen>
+
+    <style name="bottomSheetShapeStyle" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">@dimen/bottomSheetDialogBorderRadius</item>
+        <item name="cornerSizeTopRight">@dimen/bottomSheetDialogBorderRadius</item>
+    </style>
+
+
+
+    <style name="Mifos.DesignSystem.Components.BottomSheet.NoExpandedOffset" parent="Widget.Material3.BottomSheet">
+        <item name="behavior_peekHeight">@dimen/Mifos.DesignSystem.Size.BottomSheetPeakHeight</item>
+        <item name="shapeAppearance">@style/bottomSheetShapeStyle</item>
+        <item name="layout_behavior">@string/bottom_sheet_behavior</item>
+        <item name="behavior_hideable">false</item>
+        <item name="behavior_saveFlags">all</item>
+        <item name="behavior_fitToContents">false</item>
+        <item name="behavior_halfExpandedRatio">0.0000001</item>
+    </style>
+    <style name="Mifos.DesignSystem.Components.BottomSheet" parent="Mifos.DesignSystem.Components.BottomSheet.NoExpandedOffset">
+        <item name="behavior_expandedOffset">?attr/actionBarSize</item>
+    </style>
+
+    <style name="Mifos.DesignSystem.TextStyle.BottomSheetTitle" parent="TextAppearance.Material3.TitleSmall"/>
+
+    <item name="Mifos.DesignSystem.Drawable.BottomSheetGrip" type="drawable">@drawable/bottom_sheet_grip</item>
+
+    <dimen name="Mifos.DesignSystem.Spacing.MarginBottomSheetTop">16dp</dimen>
+
+
+</resources>
