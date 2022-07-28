@@ -51,6 +51,4 @@ dependencies {
 
     testImplementation libraries.junit
     androidTestImplementation libraries.android_tests
-
-    lintPublish project(":lint")
 }

@@ -72,7 +72,7 @@
 
             <!--less focus text like all rights reserved @copyright etc-->
             <TextView
-                style="@style/Mifos.DesignSystem.TextStyle.SecondaryText"
+                style="@style/Mifos.DesignSystem.TextStyle.Label"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
