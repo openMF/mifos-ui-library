@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".app.ThirdFragment"
-    android:layout_marginTop="@dimen/Mifos.DesignSystem.Spacing.screenVerticalMargin">
+    tools:context=".ThirdFragment"
+    android:layout_marginTop="@dimen/Mifos.DesignSystem.Spacing.screenVerticalMargin"
+    android:orientation="vertical">
 
     <org.mifos.mobile.ui.ProfileImageView
         android:id="@+id/profile_image"
@@ -14,5 +15,18 @@
         app:userImage="@drawable/sample_user_image"
         android:layout_gravity="center_horizontal"/>
 
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
 
-</FrameLayout>
+    <Button
+        android:id="@+id/date_dialog_trigger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/Mifos.DesignSystem.Spacing.marginBetweenSections"
+        android:layout_marginHorizontal="@dimen/Mifos.DesignSystem.Spacing.screenHorizontalMargin"
+        android:text="Open date dialog"/>
+
+
+</LinearLayout>

@@ -30,6 +30,12 @@
 
         <item name="android:textViewStyle">@style/Mifos.DesignSystem.TextStyle.Body</item>
         <item name="profileImageViewStyle">@style/Mifos.DesignSystem.Components.ProfileImage</item>
+
+        <item name="colorSuccess">#006e29</item>
+        <item name="colorOnSuccess">#ffffff</item>
+        <item name="colorSuccessContainer">#84fb93</item>
+        <item name="colorOnSuccessContainer">#002107</item>
+        <item name="harmonizeSuccess">false</item>
     </style>
 </resources>
 

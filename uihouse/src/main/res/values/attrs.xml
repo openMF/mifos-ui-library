@@ -13,6 +13,11 @@
 
     <declare-styleable name="Mifos.DesignSystem.Theme.Base">
         <attr name="profileImageViewStyle" format="reference"/>
+        <attr name="colorSuccess" format="color" />
+        <attr name="colorOnSuccess" format="color" />
+        <attr name="colorSuccessContainer" format="color" />
+        <attr name="colorOnSuccessContainer" format="color" />
+        <attr name="harmonizeSuccess" format="boolean" />
     </declare-styleable>
 
 </resources>

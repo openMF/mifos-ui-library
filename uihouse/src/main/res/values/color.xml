@@ -60,4 +60,5 @@
     <color name="md_theme_dark_surfaceTint">#AEC6FF</color>
     <color name="md_theme_dark_surfaceTintColor">#AEC6FF</color>
     <color name="seed">#243b67</color>
+    <color name="success">#1C9E43</color>
 </resources>

@@ -16,4 +16,21 @@
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">50%</item>
     </style>
+
+    <style name="Mifos.DesignSystem.Components.roundedImageWithContentPadding" parent="android:Widget">
+        <item name="shapeAppearance">@style/Mifos.DesignSystem.Shape.roundedImage</item>
+        <item name="android:background">?attr/colorSurfaceVariant</item>
+        <item name="contentPadding">6dp</item>
+    </style>
+
+    <!--Style for the custom view: ProfileImage-->
+    <style name="Mifos.DesignSystem.Components.ProfileImage" parent="android:Widget">
+        <item name="strokeColor" >?attr/colorPrimaryContainer</item>
+        <item name="strokeWidth" >3dp</item>
+        <item name="shapeAppearance" >@style/Mifos.DesignSystem.Shape.roundedImage</item>
+        <item name="imageChangeButtonSize" >30dp</item>
+        <item name="imageChangeButtonSrc" >@drawable/ic_baseline_photo_camera_24</item>
+        <item name="imageChangeButtonBottomEndPadding" >0dp</item>
+        <item name="imageChangeButtonInnerPadding" >3dp</item>
+    </style>
 </resources>

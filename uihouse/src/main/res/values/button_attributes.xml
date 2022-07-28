@@ -13,4 +13,8 @@
         <item name="backgroundTint">?attr/colorError</item>
         <item name="iconTint">?attr/colorOnError</item>
     </style>
+
+    <style name="Mifos.DesignSystem.Components.Button.Outline" parent="Widget.Material3.Button.OutlinedButton"/>
+    <style name="Mifos.DesignSystem.Components.Button.Text" parent="Widget.Material3.Button.TextButton"/>
+    <style name="Mifos.DesignSystem.Components.IconButton" parent="Widget.Material3.Button.IconButton"/>
 </resources>
