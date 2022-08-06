@@ -29,7 +29,7 @@
     <style name="Mifos.DesignSystem.Components.ExposedDropdownMenuField" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"/>
 
 
-
+    <style name="Mifos.DesignSystem.Components.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog.Centered"/>
     <!--Dialogs for things like deleting something, logging out, etc. -->
     <style name="RedDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog.Centered">
         <item name="alertDialogStyle">@style/MaterialAlertDialog.Material3</item>
