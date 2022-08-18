@@ -35,7 +35,8 @@ class NonLibraryStyleDetector : LayoutDetector() {
     override fun visitAttribute(context: XmlContext, attribute: Attr) {
         val allowedPrefix = listOf(
             "@style/Mifos.DesignSystem.TextStyle.",
-            "@style/Mifos.DesignSystem.Components."
+            "@style/Mifos.DesignSystem.Components.",
+            "?"
         )
         attribute.nodeValue.let { attrValue ->
             if (attrValue != SdkConstants.VALUE_WRAP_CONTENT
