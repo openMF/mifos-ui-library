@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Mifos.DesignSystem.TextStyle.Link" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/link_color_state_list</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+
+    <style name="Mifos.DesignSystem.TextStyle.Heading" parent="TextAppearance.Material3.HeadlineSmall"/>
+    <style name="Mifos.DesignSystem.TextStyle.SubHeading" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="Mifos.DesignSystem.TextStyle.MainFocusText" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="Mifos.DesignSystem.TextStyle.BodyLarger" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Mifos.DesignSystem.TextStyle.Body" parent="TextAppearance.Material3.BodyMedium"/>
+    <style name="Mifos.DesignSystem.TextStyle.Label" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:alpha">@dimen/alpha_low_emphasis</item>
+    </style>
+
+
+    <style name="Mifos.DesignSystem.TextStyle.PrimaryColorBody" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+    <style name="Mifos.DesignSystem.TextStyle.PrimaryColorBodyLarger" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+    <style name="Mifos.DesignSystem.TextStyle.BodyRed" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">?attr/colorError</item>
+    </style>
+</resources>

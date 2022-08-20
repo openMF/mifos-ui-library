@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Mifos.DesignSystem.Components.CountryCodePicker" parent="android:Widget">
+        <item name="ccp_contentColor">?attr/colorOnBackground</item>
+        <item name="ccpDialog_textColor">?attr/colorOnBackground</item>
+        <item name="ccpDialog_searchEditTextTint">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="Mifos.DesignSystem.Components.HorizontalSpacer" parent="android:Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?attr/colorOnSurface</item>
+        <item name="android:alpha">@dimen/alpha_least_emphasis</item>
+    </style>
+
+    <style name="Mifos.DesignSystem.Components.VerticalSpacer" parent="android:Widget">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:width">1dp</item>
+        <item name="android:background">?attr/colorOnSurface</item>
+        <item name="android:alpha">@dimen/alpha_least_emphasis</item>
+    </style>
+
+    <!--Text field styles-->
+    <style name="Mifos.DesignSystem.Components.NoBorderTextField" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="hintTextColor">@android:color/transparent</item>
+    </style>
+    <style name="Mifos.DesignSystem.Components.ExposedDropdownMenuField" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"/>
+
+
+    <style name="Mifos.DesignSystem.Components.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog.Centered"/>
+    <!--Dialogs for things like deleting something, logging out, etc. -->
+    <style name="RedDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog.Centered">
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.Material3</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Mifos.DesignSystem.Components.Button.Red</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Mifos.DesignSystem.Components.Button.Neutral</item>
+    </style>
+
+    <!--Style for the custom ProcessView lines-->
+    <style name="Mifos.DesignSystem.Components.ProcessViewLine" parent="android:Widget">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">4dp</item>
+        <item name="android:background">?attr/colorOnSurface</item>
+        <item name="android:alpha">@dimen/alpha_low_emphasis</item>
+    </style>
+
+    <!--Style for table view rows-->
+    <style name="Mifos.DesignSystem.Components.Table.Row" parent="android:Widget">
+        <item name="android:padding">@dimen/Mifos.DesignSystem.Spacing.CardInnerPadding</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

@@ -1,10 +1,48 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
-    id 'com.android.application' version '7.1.2' apply false
-    id 'com.android.library' version '7.1.2' apply false
-    id 'org.jetbrains.kotlin.android' version '1.6.10' apply false
+    id 'com.android.application' version '7.2.0' apply false
+    id 'com.android.library' version '7.2.0' apply false
+    id 'org.jetbrains.kotlin.android' version '1.6.21' apply false
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+
+
+ext.versions = [
+        ui_lib: "1.0.0-alpha1",
+        androidx_core: "1.8.0",
+        app_compat: "1.4.2",
+        material: "1.6.1",
+        constraint_layout: "2.1.4",
+        android_lint_tool: "30.2.0",
+        navigation_component: "2.4.2",
+        country_code_picker: "2.4.7",
+        lib_phone_number: "8.12.50"
+]
+
+ext.libraries = [
+        androidx_core: "androidx.core:core-ktx:$versions.androidx_core",
+        app_compat: "androidx.appcompat:appcompat:$versions.app_compat",
+        material: "com.google.android.material:material:$versions.material",
+        constraint_layout: "androidx.constraintlayout:constraintlayout:$versions.constraint_layout",
+
+        junit: 'junit:junit:4.13.2',
+        android_tests: [
+                'androidx.test.ext:junit:1.1.3',
+                'androidx.test.espresso:espresso-core:3.4.0'
+        ],
+
+        android_lint_tool: [
+                "com.android.tools.lint:lint-api:$versions.android_lint_tool",
+                "com.android.tools.lint:lint-checks:$versions.android_lint_tool"
+        ],
+        navigation_component: [
+                "androidx.navigation:navigation-fragment-ktx:$versions.navigation_component",
+                "androidx.navigation:navigation-ui-ktx:$versions.navigation_component"
+        ],
+        country_code_picker: "com.hbb20:ccp:$versions.country_code_picker",
+        lib_phone_number: "io.michaelrocks:libphonenumber-android:$versions.lib_phone_number"
+]

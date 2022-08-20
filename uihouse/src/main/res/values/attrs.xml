@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="profileImageStyleable">
+        <attr name="userImage" format="reference"/>
+        <attr name="strokeColor" format="color"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="shapeAppearance" format="reference"/>
+        <attr name="imageChangeButtonSize" format="dimension"/>
+        <attr name="imageChangeButtonSrc" format="reference"/>
+        <attr name="imageChangeButtonBottomEndPadding" format="dimension"/>
+        <attr name="imageChangeButtonInnerPadding" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="Mifos.DesignSystem.Theme.Base">
+        <attr name="profileImageViewStyle" format="reference"/>
+        <attr name="colorSuccess" format="color" />
+        <attr name="colorOnSuccess" format="color" />
+        <attr name="colorSuccessContainer" format="color" />
+        <attr name="colorOnSuccessContainer" format="color" />
+        <attr name="harmonizeSuccess" format="boolean" />
+    </declare-styleable>
+
+</resources>
