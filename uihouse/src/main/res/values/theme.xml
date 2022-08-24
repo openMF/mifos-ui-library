@@ -30,6 +30,7 @@
 
         <item name="android:textViewStyle">@style/Mifos.DesignSystem.TextStyle.Body</item>
         <item name="profileImageViewStyle">@style/Mifos.DesignSystem.Components.ProfileImage</item>
+        <item name="alertDialogTheme">@style/dialog_theme</item>
 
         <item name="colorSuccess">#006e29</item>
         <item name="colorOnSuccess">#ffffff</item>

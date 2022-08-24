@@ -36,6 +36,9 @@
         <item name="buttonBarPositiveButtonStyle">@style/Mifos.DesignSystem.Components.Button.Red</item>
         <item name="buttonBarNeutralButtonStyle">@style/Mifos.DesignSystem.Components.Button.Neutral</item>
     </style>
+    <style name="dialog_theme" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="android:windowBackground">@drawable/alert_dialog_background</item>
+    </style>
 
     <!--Style for the custom ProcessView lines-->
     <style name="Mifos.DesignSystem.Components.ProcessViewLine" parent="android:Widget">
