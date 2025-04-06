@@ -14,7 +14,7 @@ import androidx.core.view.setPadding
 import com.google.android.material.card.MaterialCardView
 import com.google.android.material.imageview.ShapeableImageView
 import com.google.android.material.shape.ShapeAppearanceModel
-import org.mifos.mobile.uihouse.R
+import org.mifos.mobile.ui.house.R
 
 class ProfileImageView @JvmOverloads  constructor(
     context: Context,
@@ -83,7 +83,7 @@ class ProfileImageView @JvmOverloads  constructor(
     }
 
     fun setImageChangeButtonBottomEndMargin(@Dimension margin: Int){
-        (userImageChangeButton.layoutParams as FrameLayout.LayoutParams).apply {
+        (userImageChangeButton.layoutParams as LayoutParams).apply {
             setMargins(0,0,0,margin)
             marginEnd = margin
         }

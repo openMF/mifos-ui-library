@@ -18,6 +18,8 @@ android {
 
     compileSdk 32
 
+    namespace 'org.mifos.mobile.ui.house'
+
     defaultConfig {
         minSdk 22
         targetSdk 32

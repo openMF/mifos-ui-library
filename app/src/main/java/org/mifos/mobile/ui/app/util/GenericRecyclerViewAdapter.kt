@@ -41,11 +41,9 @@ class GenericRecyclerViewAdapter<T: Any, VBType: ViewBinding>(
 
 
 fun<T> diffCallBackBy(comparator: (oldItem: T, newItem: T) -> Boolean) = object : DiffUtil.ItemCallback<T>() {
-    override fun areItemsTheSame(oldItem: T, newItem: T)
-            = comparator(oldItem, newItem)
+    override fun areItemsTheSame(oldItem: T & Any, newItem: T & Any): Boolean = comparator(oldItem, newItem)
 
     @SuppressLint("DiffUtilEquals")
-    override fun areContentsTheSame(oldItem: T, newItem: T)
-            = (oldItem == newItem)
+    override fun areContentsTheSame(oldItem: T & Any, newItem: T & Any): Boolean = (oldItem == newItem)
 
 }
